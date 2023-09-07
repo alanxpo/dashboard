@@ -4,7 +4,7 @@ import NewForm from "../components/NewForm";
 import NewTable from "../components/NewTable";
 import PieChart from "../components/PieChart";
 
-export default (Form) => {
+const Page = () => {
   const [results, setResults] = useState(null);
 
   const receiveResults = (newResults) => {
@@ -40,3 +40,5 @@ export default (Form) => {
     </div>
   );
 };
+
+export default Page;
